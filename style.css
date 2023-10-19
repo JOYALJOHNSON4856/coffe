@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+   
+}
+.main{
+    background-color:  rgb(236, 208, 118);
+}
+.header{
+    font-size: 100px;
+    font-family: 'Black Ops One', cursive;;
+}
+.headers{
+    background-color: rgb(220, 153, 60);
+}
+.sticky{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.caption{
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(236, 208, 118);
+    text-align: center;
+}
+.para{
+    width: 700px;
+    height: 200px;
+    outline: ridge 2px black;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color:  rgb(236, 208, 118);
+}
+.types{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+.paras{
+    text-align: justify;
+}
+.brands{
+    text-align: center;
+}
+.gallery{
+    background-color: rgb(220, 153, 60);
+    width: 100%;
+    height: 970px;
+    padding: 20px 0px;
+}
+.rows{
+    height: 250px;
+    width: 900px;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.cols{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+
+}
+.one{
+    background-image: url(https://brewscoffee.netlify.app/c5.jpg);
+}
+.two{
+    background-image: url(https://brewscoffee.netlify.app/c4.jpg);
+}
+.three{
+    background-image: url(https://brewscoffee.netlify.app/c6.jpg);
+}
+.one1{
+    background-image: url(https://brewscoffee.netlify.app/c7.jpg);
+}
+.two2{
+    background-image: url(https://brewscoffee.netlify.app/c3.jpg);
+}
+.three3{
+    background-image: url(https://brewscoffee.netlify.app/c1.jpg);
+}
+.one4{
+    background-image: url(https://brewscoffee.netlify.app/c8.jpg);
+}
+.two5{
+    background-image: url(https://brewscoffee.netlify.app/c2.jpg);
+}
+.three6{
+    background-image: url(https://brewscoffee.netlify.app/c9.jpg);
+}
+.query{
+    width: 100%;
+    height: 450px;
+    background-color:  rgb(236, 208, 118);
+    text-align: center;
+}
+.inner{
+    width: 850px;
+    height: 300px;
+    background-color: rgb(220, 153, 60);
+    border: 2px solid black;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 20px 140px;
+    display: flex;
+
+}
+.box{
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+}
+.names{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(220, 153, 60);
+    display: flex;
+}
+.pics{
+    flex: 1;
+    text-align: center;
+}
+.pics a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 80px;
+    background-color: brown;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+button:hover{
+    
+    background-color:  rgb(220, 153, 60);
+    box-shadow: 2px 2px 4px brown,-2px -2px 4px brown;
+}
